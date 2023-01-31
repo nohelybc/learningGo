@@ -22,4 +22,11 @@ func main() {
 	var d bool
 
 	fmt.Println("Wow! look at this pretty zeros:", a, b, c, d)
+
+	// Area of a triangle
+	const baseTriangle = 12
+	var heightTriangle = 14
+	areaTriangle := (baseTriangle * heightTriangle) / 2
+
+	fmt.Println("The area of the awesome triangle is:", areaTriangle)
 }
